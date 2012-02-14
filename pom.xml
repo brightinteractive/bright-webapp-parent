@@ -24,7 +24,14 @@
     </scm>
 
     <properties>
+        <!--
+            jetty:run doesn't work with these versions of Jetty in Maven
+            2.2.1 (see
+            https://github.com/brightinteractive/bright-webapp-parent/issues/1)
         <jetty.version>8.0.4.v20111024</jetty.version>
+        <jetty.version>7.5.4.v20111024</jetty.version>
+        -->
+        <jetty.version>7.4.5.v20110725</jetty.version>
     </properties>
 
     <build>
