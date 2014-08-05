@@ -98,6 +98,12 @@
                 <version>${maven.war.plugin.version}</version>
                 <configuration>
                     <packagingExcludes>**/*-local.properties</packagingExcludes>
+                    <webResources>
+                        <resource>
+                            <directory>deployment-config</directory>
+                            <targetPath>deployment-config</targetPath>
+                        </resource>
+                    </webResources>
                 </configuration>
             </plugin>
             <plugin>
