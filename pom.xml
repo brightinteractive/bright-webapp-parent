@@ -35,8 +35,6 @@
         <maven.war.plugin.version>2.4</maven.war.plugin.version>
         <javax.servlet-api.version>3.0.1</javax.servlet-api.version>
         <jsp-api.version>2.1</jsp-api.version>
-        <bright-spring.version>1.2.0</bright-spring.version>
-        <spring.test.version>4.0.6.RELEASE</spring.test.version>
     </properties>
 
     <build>
@@ -134,17 +132,6 @@
     </build>
 
     <dependencies>
-        <dependency>
-            <groupId>com.brightinteractive</groupId>
-            <artifactId>bright-spring</artifactId>
-            <version>${bright-spring.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-test</artifactId>
-            <version>${spring.test.version}</version>
-            <scope>test</scope>
-        </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
